@@ -1,0 +1,88 @@
+.add_contact_home_div{
+    background-image: url("../../images/bghome.jpg");
+    min-height:calc(100vh - 82px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home_sub_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height:calc(100vh - 82px);
+}
+.home_sub_div h2{
+    color: #f2f3f4;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.contact_list_item_home{
+    width: 90%;
+    border-radius: 10px;
+    background-color: #f2f3f4;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.map_do_item{
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid #52c41a;
+    display: flex;
+    height: 50px;
+}
+.map_do_item_top{
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #52c41a;
+    display: flex;
+    height: 50px;
+    border-radius: 10px;
+}
+.map_do_item_top h3{
+    color: #fff;
+    font-weight: 700;
+}
+.map_do_item_top h3,
+.map_do_item p{
+    margin-bottom: 0px;
+    font-family: "Exo 2";
+}
+.map_do_item p:not(:last-child),
+.map_do_item_top h3:not(:last-child){
+   width: 20%;
+}
+.anticon-delete
+{
+    margin: 0px 10px;
+}
+.anticon-delete,
+.anticon-form{
+font-size: 16px;
+}
+.anticon svg{
+    color: red;
+    width: 20px;
+    cursor: pointer;
+}
+.more_infor_homes{
+    color: #52c41a;
+    font-weight: 700;
+    cursor: pointer;
+}
+.empty_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+.empty_head{
+    color: #52c41a;
+    font-weight: 700;
+    font-family: "Exo 2";
+    font-size: 24px;
+    margin:25px 0px 0px 0px;
+}

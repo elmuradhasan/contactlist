@@ -1,0 +1,83 @@
+
+.add_element_sub{
+    display: flex;
+    height:calc(100vh - 82px);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.add_element_sub form{
+    background-color: #f2f3f4;
+    padding: 30px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.add_element_sub form label{
+    width: 45%;
+    font-family: "Exo 2";
+    font-weight: 500;
+}
+.add_element_sub form label textarea{
+    width: 100%;
+    padding: 10px 30px;
+    font-family: "Exo 2";
+    font-weight: 400;
+    max-height: 100px;
+    min-height: 100px;
+    resize: none;
+}
+.input_add{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 30px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-bottom: 2px solid #52c41a;
+}
+.input_add:focus,
+textarea:focus{
+    border:none;  
+}
+
+.plus_information{
+    width: 90% !important;
+    margin-bottom: 15px;
+}
+.plus_information textarea{
+   border-radius: 10px;
+   margin-top: 10px;
+   border-bottom: 2px solid #52c41a;
+}
+.plus_information textarea:focus{
+    border:none;  
+}
+.marri{
+    margin-right: 15px;
+}
+.form_add_buttom{
+    background-color: #52c41a;
+    color: #fff;
+    width: 90%;
+    padding: 10px 15px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.add_element_sub h2{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.check_element{
+    margin-top: 15px;
+}
+.radios{
+    margin:0px 5px;
+}
+

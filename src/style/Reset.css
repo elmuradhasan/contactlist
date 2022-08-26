@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.full_w{
+    width: 100%;
+}
+.floating{
+    position: relative;
+    float: left;
+}
+body{
+    width: 100%;
+    position: relative;
+    float: left;
+    height: 100vh;
+    font-family: 'Exo 2', sans-serif;
+}
+.center{
+    width: 1320px;
+    margin: 0px auto;
+}
+input,button,textarea,select{
+    outline: none;
+    border: none;
+}

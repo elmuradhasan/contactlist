@@ -1,0 +1,28 @@
+/* Header css */
+header{
+  background-color: #f2f3f4;
+}
+.add_contact_div{
+  display: flex;
+  padding: 15px 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.add_button_header{
+  background-color: #52c41a;
+  padding: 10px 15px;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 10px;
+  transition: all 1s;
+}
+.add_button_header:hover{
+  background-color:#fff ;
+  color: #52c41a;
+}
+.contact_list_title{
+  font-weight: 700;
+  padding: 10px 15px 5px 15px;
+  border-bottom: 2px solid #52c41a;
+}
+

@@ -1,0 +1,50 @@
+.add_contact_form_div{
+    min-height:calc(100vh - 82px);
+    background-image: url("../../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.detail_mains_flex{
+    width: 50%;
+    background-color:#f2f2f2;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; 
+}
+.map_do_item_top_detail{
+    align-items: center;
+    width: 15%;
+    border-right: 2px solid #52c41a;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+.map_do_item_top_detail h3{
+ font-weight: 700;
+ margin-bottom: 11px;
+ font-family: "Exo 2";
+}
+.map_do_item_detail{
+    width: 60%;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #52c41a;
+}
+.map_do_item_detail p{
+   color: #52c41a;
+   font-weight: 500;
+   margin-left: 20px;
+}
+.detail_mains_flex a{
+    background-color: #ff0000;
+    padding: 10px 15px;
+    font-weight: 700;
+    margin-left: 20px;
+    color: #fff;
+    border-radius: 10px;
+}
